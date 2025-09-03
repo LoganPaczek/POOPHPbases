@@ -27,6 +27,20 @@ class Arme{
         public function getDescription(){
             return $this->description;
         }
+
+
+        // Modificateur
+        public function setName(string $newName){
+            $this->name = $newName;
+        }
+
+        public function setImage(string $newImage){
+            $this->image = $newImage;
+        }
+
+        public function setDescription(string $newDescription){
+            $this->description = $newDescription;
+        }
     }
 
 
