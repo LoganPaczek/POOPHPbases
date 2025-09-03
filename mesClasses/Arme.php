@@ -41,6 +41,15 @@ class Arme{
         public function setDescription(string $newDescription){
             $this->description = $newDescription;
         }
+
+
+
+        // Méthode toString
+        public function toString(){
+            echo "Name : " . $this->getName() . "\n";
+            echo "Image : " . $this->getImage() . "\n";
+            echo "Description : " . $this->getDescription();
+        }
     }
 
 
