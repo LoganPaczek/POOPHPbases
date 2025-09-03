@@ -8,11 +8,11 @@ class Arme{
 
 
         // Constructeur
-        public function __construct(string $nom, string $image, string $description){
-            $this->nom = $nom;
+        public function __construct(string $name, string $image, string $description){
+            $this->name = $name;
             $this->image = $image;
             $this->description = $description;
-        }
+        } 
     }
 
 
