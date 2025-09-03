@@ -12,7 +12,21 @@ class Arme{
             $this->name = $name;
             $this->image = $image;
             $this->description = $description;
-        } 
+        }
+
+
+        // Accesseur
+        public function getName(){
+            return $this->name;
+        }
+
+        public function getImage(){
+            return $this->image;
+        }
+
+        public function getDescription(){
+            return $this->description;
+        }
     }
 
 
