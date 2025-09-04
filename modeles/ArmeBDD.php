@@ -1,5 +1,5 @@
 <?php
-include '../libs/pdo.php';
+include_once(__DIR__ . '/../libs/pdo.php');
 include_once(__DIR__ . '/../mesClasses/Arme.php');
 
 function donneArmeByIdV1($id) {
