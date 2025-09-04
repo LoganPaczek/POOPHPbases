@@ -11,7 +11,6 @@ class Arme{
         // Constructeur
         public function __construct(){
             $num_args = func_num_args();
-            echo $num_args;
             switch ($num_args){
                 case 0:
                     break;

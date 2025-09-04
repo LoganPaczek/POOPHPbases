@@ -1,5 +1,6 @@
 <?php
-include '../global/config.php' :
+include_once(__DIR__ . '/../global/config.php');
+
 /**
  * Classe implémentant le singleton pour PDO
  * @author Savageman
